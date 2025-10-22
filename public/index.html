@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rahman SMM Panel v3 API</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="hero">Rahman SMM Panel v3 (API)</header>
+  <main class="container">
+    <section class="card" id="authCard">
+      <h2 id="authTitle">Login</h2>
+      <input id="username" placeholder="Email atau Username" />
+      <input id="password" placeholder="Password" type="password"/>
+      <button id="btnLogin">Login (demo)</button>
+      <p class="muted">Gunakan demo: <strong>user: demo / pass: demo</strong></p>
+    </section>
+
+    <section class="card" id="panel" style="display:none;">
+      <div class="row"><div>Halo, <span id="userName"></span></div><div id="balanceTag">Rp0</div></div>
+      <label>Pilih Layanan</label>
+      <select id="serviceSelect"></select>
+      <label>Link Video / Akun</label>
+      <input id="target" placeholder="Masukkan link YouTube atau akun..." />
+      <label>Jumlah Pesanan</label>
+      <input id="qty" value="100" type="number"/>
+      <label>Harga per 1000</label>
+      <input id="priceInfo" readonly />
+      <label>Total Bayar</label>
+      <input id="totalInfo" readonly />
+      <div class="row">
+        <button id="btnTopup">+ Rp10.000</button>
+        <button id="btnOrder">Order Sekarang</button>
+      </div>
+    </section>
+
+    <section class="card" id="ordersCard" style="display:none;">
+      <h3>Riwayat Pesanan</h3>
+      <div id="ordersList"></div>
+    </section>
+
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
