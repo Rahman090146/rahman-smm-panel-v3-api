@@ -1,0 +1,11 @@
+{
+  "users": [
+    { "id": "u1", "username": "demo", "password": "demo", "balance": 30000 }
+  ],
+  "services": [
+    { "id": 1, "name": "YouTube Subscribers", "rate": 15000, "min": 100, "max": 100000 },
+    { "id": 2, "name": "YouTube Views", "rate": 8000, "min": 100, "max": 200000 },
+    { "id": 3, "name": "Instagram Followers", "rate": 12000, "min": 100, "max": 50000 }
+  ],
+  "orders": []
+}
