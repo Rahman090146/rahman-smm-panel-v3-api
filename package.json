@@ -1,7 +1,7 @@
 {
   "name": "rahman-smm-panel-v3-api",
   "version": "1.0.0",
-  "description": "Rahman SMM Panel Full API (Express + LowDB + Mobile UI)",
+  "description": "Rahman SMM Panel Full API",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,9 +10,6 @@
   "dependencies": {
     "express": "^4.18.2",
     "lowdb": "^6.0.1",
-    "nanoid": "^4.0.0",
-    "node-fetch": "^2.6.7",
-    "dotenv": "^16.0.3",
     "cors": "^2.8.5"
   }
 }
