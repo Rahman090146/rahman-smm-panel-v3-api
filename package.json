@@ -1,8 +1,9 @@
 {
   "name": "rahman-smm-panel-v3-api",
   "version": "1.0.0",
-  "description": "Rahman SMM Panel Full API (Express + LowDB backend, mobile UI)",
+  "description": "Rahman SMM Panel Full API (Express + LowDB + Mobile UI)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
